@@ -32,9 +32,12 @@
    background-image: linear-gradient(to left top, #734f9a, #5a427f, #433563, #2f2749, #1d1a2f);
 }
 
+
 .menu_item{
 
    color: #8BD450;
+   text-decoration: none !important ;
+   list-style-type: none !important ;
    font-family: sunday;
    font-size: 1.35rem;
 
@@ -42,5 +45,18 @@
 
 .referencia{
    background-image: linear-gradient(to right, #8bd450, #70ba55, #5aa057, #4a8754, #3f6d4e);
+}
+
+#footer{
+   background-image: linear-gradient(to right top, #1d1a2f, #342c56, #503d7f, #714ea9, #965fd4);
+   color: #8BD450;
+   font-family: sunday;
+   font-size: 1.35rem;
+   
+}
+
+.footer_link{
+   text-decoration: none;
+   color: black;
 }
    
