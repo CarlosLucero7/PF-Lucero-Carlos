@@ -8,5 +8,20 @@
     src: url(../assist/fonts/SUNDAY.ttf);
  }
 
+ body{
+    height: 150vh;
+    width: 100%;
+ }
 
+ #header{
+    background-image: url(../assist/images/background.jpg);
+    height: 150px;
+    
+ }
 
+ #titulo{
+    font-family: carbon;
+    font-size: 5rem !important;
+    color: #965fd4;
+
+ }
