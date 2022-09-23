@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assist/images/logo.jpg">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="body">
+    <header id="header__pag">     
+        <h1>Formulario de contacto</h1>
+        <section id="menu">
+            <nav>
+                <div id="menu__lista">
+                    <div><a href="../index.html" class="menu__lista__item">Inico</a></div>
+                    <div><a href="./p_nosotros.html" class="menu__lista__item">Quienes somos?</a></div>
+                    <div><a href="./p_diseno.html" class="menu__lista__item">Diseños</a></div>
+                    <div><a href="./p_productos.html" class="menu__lista__item">Productos</a></div>
+                </div>       
+            </nav>      
+        </section>
+    </header>
+    <main class="main">
+        <form action="" method="get">
+            <div>
+                <label for="Nombre">Nombre completo: </label>
+                <input type="text" id="Nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div>
+                <label for="Correo">Direccion de email:</label>
+                <input type="email" id="Correo" placeholder="Ingrese su correeo" required>
+            </div>
+            <div>
+                <label for="Nac">Fecha de Nacimiento:</label>
+                <input type="date" id="Nac">
+            </div>
+            <div>
+                <label for="Tel">Numero de telefono:</label>
+                <input type="tel" id="Tel" placeholder="Ingrese su telefono" required>
+            </div>
+               <h5>Es usted cliente?</h5>
+            <div>
+                <input type="radio" id="cliente" value="Si" name="cliente">Si
+                <input type="radio" id="cliente" value="No" name="cliente">No
+            </div>
+            <div>
+                <label for="conformidad">Que tan conforme esta con el servicio?</label>
+                <input type="range" min="Insatisfecho" max="Muy satisfecho">
+            </div>
+               <label for="coment">Comentarios:</label>
+            <div>
+                <textarea name="" id="coment" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <h2>San Juan, Argentina</h2>
+        <div class="footer__cont">
+            <a href="./index.html" class="footer__cont__text">Inicio</a><a href="./pages/page_3.html" class="footer__cont__text">Diseños</a><a href="./pages/page_4.html" class="footer__cont__text">Productos</a><a href="./pages/p_contacto.html" class="footer__cont__text">Contacto</a>
+        </div>
+    </footer>
+</body>
+</html>
