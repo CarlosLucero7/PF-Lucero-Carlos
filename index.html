@@ -14,10 +14,10 @@
 <body>
     <header id="header">
         <div id="titulo">
-            <h1>Project 3D</h1>
+            <H1>Project 3D</H1>
         </div>
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg menu">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/p_nosotros.html">Quienes Somos?</a>
+                            <a class="nav-link active menu_item" aria-current="page" href="./pages/p_nosotros.html">Quienes Somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/p_diseno.html">Diseños</a>
+                            <a class="nav-link menu_item" href="./pages/p_diseno.html">Diseños</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./pages/p_productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle menu_item" href="./pages/p_productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,7 +43,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/p_contacto.html">Contacto</a>
+                            <a class="nav-link menu_item" href="./pages/p_contacto.html">Contacto</a>
                         </li>
                     </ul>
                   </div>
@@ -51,10 +51,10 @@
               </nav>     
         </section>
     </header>
-    <main> 
-        <section>
+    <main class="container-fluid"> 
+        <section class="col">
             <div>
-                <img src="./assist/images/imagen2.jpg" alt="impresora 3d modelo magna1">
+                <img src="./assist/images/imagen2.jpg" class="rounded mx-auto d-block" alt="impresora 3d modelo magna1">
                 <div>
                     <h3>Nuestro trabajo</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos in perspiciatis quas consectetur libero facere iure neque praesentium debitis blanditiis, ab dolorem unde, nisi commodi? Molestias, laborum? Nesciunt ex voluptatibus suscipit repudiandae dicta sunt cupiditate quam sint dolore? Dicta adipisci vel explicabo itaque tenetur repellat quam quibusdam! Quia, nostrum ex.
@@ -62,29 +62,30 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="referencias col-8">
             <div><h2>Referencias:</h2></div>
-            <div>    
-                <img src="./assist/images/referencia2.jpeg" alt="figuras de pokemon con manga de fondo">
-                <h3>Figuras de pokemon</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio fugit neque officia quisquam perspiciatis, perferendis, recusandae officiis doloremque sequi incidunt ut explicabo voluptas? Recusandae quisquam nisi asperiores autem tempore?
-                </p>
+            <div class="card referencia" style="width: 18rem;">
+                <img src="./assist/images/referencia2.jpeg" class="card-img-rigth img-thumbnail" alt="figuras de pokemon con manga de fondo">
+                <div class="card-body">
+                  <h5 class="card-title">Figuras de pokemon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
-            <div>
-                <img src="./assist/images/referencia1.jpeg" alt="soporte de audiculares con tornillo">
-                <h3>Soporte audiculares con tornillo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui, doloremque totam ipsum esse cum impedit tenetur perspiciatis in libero natus voluptate ratione maiores possimus quia id saepe blanditiis obcaecati.</p>
+            <div class="card referencia" style="width: 18rem;">
+                <img src="./assist/images/referencia1.jpeg" class="card-img-left img-thumbnail" alt="soporte de audiculares con tornillo">
+                <div class="card-body">
+                    <h5 class="card-title">Soporte audiculares con tornillo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
-            <div>
-                <img src="./assist/images/referencia3.jpeg" alt="soporte de celular con forma de corazon">
-                <h3>Soporte de celular corazon</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio fugit neque officia quisquam perspiciatis, perferendis, recusandae officiis doloremque sequi incidunt ut explicabo voluptas? Recusandae quisquam nisi asperiores autem tempore?
-                </p>
+            <div class="card referencia" style="width: 18rem;">
+                <img src="./assist/images/referencia3.jpeg" class="card-img-top img-thumbnail" alt="soporte de celular con forma de corazon">
+                <div class="card-body">
+                    <h5 class="card-title">Soporte de celular corazon</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
-        </section>
-        
+        </section> 
     </main>
     <footer>
         <h2>San Juan, Argentina</h2>

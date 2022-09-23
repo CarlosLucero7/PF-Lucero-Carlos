@@ -16,7 +16,9 @@
  #header{
     background-image: url(../assist/images/background.jpg);
     height: 150px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
  }
 
  #titulo{
@@ -25,3 +27,20 @@
     color: #965fd4;
 
  }
+
+.menu {
+   background-image: linear-gradient(to left top, #734f9a, #5a427f, #433563, #2f2749, #1d1a2f);
+}
+
+.menu_item{
+
+   color: #8BD450;
+   font-family: sunday;
+   font-size: 1.35rem;
+
+}
+
+.referencia{
+   background-image: linear-gradient(to right, #8bd450, #70ba55, #5aa057, #4a8754, #3f6d4e);
+}
+   
