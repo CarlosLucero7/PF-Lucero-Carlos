@@ -13,19 +13,31 @@
     width: 100%;
  }
 
+ .body_pag{
+   height: 120vh;
+   width: 100%;
+ }
+
  #header{
     background-image: url(../assist/images/background.jpg);
+    background-position: top;
+    height: 170px;
+ }
+
+ .header_pag{
+   background-image: url(../assist/images/background.jpg);
+    background-position: top;
     height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;   
  }
 
  #titulo{
     font-family: carbon;
-    font-size: 5rem !important;
     color: #965fd4;
+ }
 
+ .titulo_pag{
+   font-family: sunday;
+   color: #8BD450;
  }
 
 .menu {
@@ -34,20 +46,15 @@
 
 
 .menu_item{
-
-   color: #8BD450;
-   text-decoration: none !important ;
-   list-style-type: none !important ;
    font-family: sunday;
    font-size: 1.35rem;
-
 }
 
 .referencia{
    background-image: linear-gradient(to right, #8bd450, #70ba55, #5aa057, #4a8754, #3f6d4e);
 }
 
-#footer{
+.footer{
    background-image: linear-gradient(to right top, #1d1a2f, #342c56, #503d7f, #714ea9, #965fd4);
    color: #8BD450;
    font-family: sunday;
