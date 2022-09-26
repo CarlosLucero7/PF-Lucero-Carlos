@@ -49,6 +49,10 @@
    padding-right: 3em !important; 
 }
 
+.main_dise{
+   background-color: #1d1a2f;
+}
+
 .referencia{
    background-image: linear-gradient(to right, #8bd450, #70ba55, #5aa057, #4a8754, #3f6d4e);
 }
@@ -63,4 +67,23 @@
    text-decoration: none;
    color: black;
 }
+
+.bordes{
+   color: #8BD450 !important;
+   border: 2px solid #965FD4 !important;
+   background-image: linear-gradient(to right, #1d1a2f, #2f2749, #433563, #5a427f, #734f9a);
+}
+
+.bg_carousel{
+   background-color: whitesmoke;  
+}
+
+.img_carousel{
+   height: 175px;
+}
+
+.img_card{
+   height: 200px;
+}
+
    

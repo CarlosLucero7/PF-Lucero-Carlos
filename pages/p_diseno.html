@@ -14,7 +14,7 @@
     <header class="header_pag container-fluid">
         <div>
             <div class="titulo_pag row">
-                <H1 class="display-2">Diseños</H1>
+                <H1 class="display-1">Diseños</H1>
             </div>
             <section class="row">
                 <nav class="navbar navbar-expand-lg navbar-dark menu">
@@ -43,37 +43,96 @@
             </section>
         </div>
     </header>
-    <main class="main__contenido">
-        <h2>Diseños personalizados</h2>
-            <div class="main__dise">
-                <img src="../assist/images/logos/blender.png" alt="logo de blender" class="main__dise__img">
-                <img src="../assist/images/logos/fusion.png" alt="logo de fusion 360" class="main__dise__img">
-                <img src="../assist/images/logos/Zbrush.png" alt="logo de Zbrush" class="main__dise__img">
-            </div>
-            <fieldset>
+    <main class="main_dise">
+        <article class="row align-items-center container-fluid pt-3">
+            <div class="col-6 bordes">
+                <h2>Diseños personalizados</h2>
                 <p>
                     Hacemos realidad tus ideas utilizando el software mas utilizado en cuestiones de diseño y modelado 3D. Contactanos y podremos aseesorarte sobre como podriamos ayudarte a concretar tus ideas o repuestos que necesites. 
                 </p>
-            </fieldset>
-        <h2>Diseños propios</h2>
-            <fieldset>
-                <p>Si cuentas con tus propios diseños ofrcemos el servicio de realizar su impresion, ajustamdo parametros de relleno, mateerial, densidad de capa, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nihil omnis sunt laudantium, ipsam quibusdam culpa ut voluptate dolor quod.</p>
-            </fieldset>
-        <h2>Diseños en Internet</h2>
-            <fieldset>
-                <p>Si quieres descargar algun diseño o quieres conseguir algun modelo de personajes o empresas, puedes descarcarlo de los siguientes sitios que frecuentamos.</p>
-            </fieldset>
-        <div class="main__dise"> 
-            <a href="https://www.cgtrader.com/" target="_blank"><img src="../assist/images/logos/cgt.png" alt="logo de cgtrader"></a>
-            <a href="https://cults3d.com/es" target="_blank"><img src="../assist/images/logos/cults.svg" alt="logo de cults"></a>
-            <a href="https://www.myminifactory.com/es/" target="_blank"><img src="../assist/images/logos/myminifact.png" alt="logo de myminifactory"></a>
-            <a href="https://www.thingiverse.com/" target="_blank"><img src="../assist/images/logos/thingiverse.webp" alt="logo de thingiverse"></a>
-        </div>
-        <h2>Tutorial de descarga</h2>
+            </div>
+            <div id="carouselExampleDark" class="col-6 carousel carousel-dark slide bg_carousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../assist/images/logos/Zbrush.png" class="img_carousel rounded mx-auto img-fluid d-block" alt="logo de Zbrush">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../assist/images/logos/blender.png" class="img_carousel rounded mx-auto img-fluid d-block" alt="logo de blender">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assist/images/logos/fusion.png" class="img_carousel rounded mx-auto img-fluid d-block" alt="logo de fusion 360">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>             
+        </article>
+        <article class="container-fluid row pt-3 pb-3">
+            <div class="bordes">
+                <h2>Diseños propios</h2>
+            <p>
+                Si cuentas con tus propios diseños ofrcemos el servicio de realizar su impresion, ajustamdo parametros de relleno, mateerial, densidad de capa, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nihil omnis sunt laudantium, ipsam quibusdam culpa ut voluptate dolor quod.
+            </p>
+            </div>
+        </article>
+        <article class="container-fluid row pt-3 pb-3">
+            <div class="bordes">
+                <h2>Diseños en Internet</h2>
+                <p>
+                    Si quieres descargar algun diseño o quieres conseguir algun modelo de personajes o empresas, puedes descarcarlo de los siguientes sitios que frecuentamos.
+                </p>
+            </div>
+            <div class="pt-3 card-group opacity-75">
+                <div class="card">
+                    <a href="https://www.cgtrader.com/" target="_blank"><img src="../assist/images/logos/cgt.png" class="img-fluid rounded mx-auto d-block img_card" alt="logo de cgtrader"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">CGTrader</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <a href="https://cults3d.com/es" target="_blank"><img src="../assist/images/logos/cults.svg" class="img-fluid rounded mx-auto d-block img_card" alt="logo de cults"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Cults</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <a href="https://www.myminifactory.com/es/" target="_blank"><img src="../assist/images/logos/myminifact.png" class="img-fluid rounded mx-auto d-block img_card" alt="logo de myminifactory"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">MyMiniFactory</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <a href="https://www.thingiverse.com/" target="_blank"><img src="../assist/images/logos/thingiverse.jpg" class="img-fluid rounded mx-auto d-block img_card" alt="logo de thingiverse"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Thingiverse</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                  </div>
+              </div>
+
+        </article>
+        <article class="containeer-fluid row">
+            <h2>Tutorial de descarga</h2>
             <fieldset>
                 <p>No sabes como descargar un modelo que viste? No hay problema, aqui te dejamos un tutorial bien explicado sobre como descargar en los principales sitios.</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/A5WfYA1EgOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </fieldset>
+        </article>
+        
     </main>
     <footer class="footer container-fluid pt-3 pb-3">
         <div class="row">
@@ -81,10 +140,10 @@
                 <h2 class="display-6">San Juan, Argentina</h2>
             </div>
             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 btn-group">
-                <button type="button" class="btn btn-outline-success"><a href="./pages/p_nosotros.html" class="footer_link">Quienes somos?</a></button>
-                <button type="button" class="btn btn-outline-success"><a href="./pages/p_diseno.html" class="footer_link">Diseños</a></button>
-                <button type="button" class="btn btn-outline-success"><a href="./pages/p_productos.html" class="footer_link">Productos</a></button>
-                <button type="button" class="btn btn-outline-success"><a href="./pages/p_contacto.html" class="footer_link">Contacto</a></button>
+                <button type="button" class="btn btn-outline-success"><a href="../index.html" class="footer_link">Inicio</a></button>
+                <button type="button" class="btn btn-outline-success"><a href="./p_nosotros.html" class="footer_link">Quienes somos?</a></button>
+                <button type="button" class="btn btn-outline-success"><a href="./p_productos.html" class="footer_link">Productos</a></button>
+                <button type="button" class="btn btn-outline-success"><a href="./p_contacto.html" class="footer_link">Contacto</a></button>
             </div>
         </div>
     </footer>
