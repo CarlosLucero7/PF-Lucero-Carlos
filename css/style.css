@@ -20,19 +20,17 @@
 
  #header{
     background-image: url(../assist/images/background.jpg);
-    background-position: top;
-    height: 170px;
+    background-position: bottom;
  }
 
  .header_pag{
    background-image: url(../assist/images/background.jpg);
-    background-position: top;
-    height: 150px;
+    background-position: bottom;
  }
 
  #titulo{
     font-family: carbon;
-    color: #965fd4;
+    color: #965FD4;
  }
 
  .titulo_pag{
@@ -48,6 +46,7 @@
 .menu_item{
    font-family: sunday;
    font-size: 1.35rem;
+   padding-right: 3em !important; 
 }
 
 .referencia{
