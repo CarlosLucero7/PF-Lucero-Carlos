@@ -49,12 +49,18 @@
    padding-right: 3em !important; 
 }
 
+#main{
+   background-color: #1d1a2f;
+   color: #8BD450;
+}
+
 .main_dise{
    background-color: #1d1a2f;
 }
 
 .referencia{
-   background-image: linear-gradient(to right, #8bd450, #70ba55, #5aa057, #4a8754, #3f6d4e);
+   background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
+   color: white;
 }
 
 .footer{
@@ -69,9 +75,9 @@
 }
 
 .bordes{
-   color: #8BD450 !important;
+   color: white;
    border: 2px solid #965FD4 !important;
-   background-image: linear-gradient(to right, #1d1a2f, #2f2749, #433563, #5a427f, #734f9a);
+   background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);;
 }
 
 .bg_carousel{
@@ -79,11 +85,20 @@
 }
 
 .img_carousel{
-   height: 175px;
+   height: 150px;
 }
 
 .img_card{
    height: 200px;
+}
+
+.animation{
+   transition: 1s all linear ;
+}
+
+.animation:hover{
+   transform: scale(1.25);
+   transition: 1s all linear ;
 }
 
    
