@@ -10,41 +10,38 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body id="body">
-    <header class="header_pag container-fluid">
-        <div>
-            <div class="titulo_pag row">
-                <H1 class="display-1">Diseños</H1>
-            </div>
-            <section class="row">
-                <nav class="navbar navbar-expand-lg navbar-dark menu">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link menu_item  animation" aria-current="page" href="../index.html">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu_item  animation" href="./p_nosotros.html">Quienes Somos?</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu_item  animation" href="./p_productos.html">Productos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu_item  animation" href="./p_contacto.html">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </section>
+<body class="body_pag">
+    <header id="header">
+        <div class="titulo_pag">
+            <H1 class="display-1">Diseños</H1>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-dark menu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img src="../assist/images/iconos/list.png" class="img-fluid" alt=""></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ps-2">
+                        <li class="nav-item">
+                            <a class="nav-link menu_item animation" href="./pages/p_nosotros.html">Quienes Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu_item animation" href="./pages/p_diseno.html">Diseños</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu_item animation" href="./pages/p_productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu_item animation" href="./pages/p_contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="main_dise">
-        <article class="row align-items-between justify-content-between container-fluid pt-3">
+
+    <main class="main_dise container">
+        <article class="row justify-content-between pt-4 pb-4">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 bordes">
                 <h2>Diseños personalizados</h2>
                 <p>
@@ -69,16 +66,15 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span aria-hidden="true"><img src="../assist/images/iconos/left-arrow.png" alt="anterior"></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span aria-hidden="true"><img src="../assist/images/iconos/right-arrow.png" alt="siguieente"></span>
                 </button>
             </div>             
         </article>
-        <article class="container-fluid row pt-3">
+
+        <article class="row pt-3 pb-4">
             <div class="bordes">
                 <h2>Diseños propios</h2>
             <p>
@@ -86,45 +82,56 @@
             </p>
             </div>
         </article>
-        <article class="container-fluid row pt-3">
+
+        <article class="row pt-3 pb-4">
             <div class="bordes">
                 <h2>Diseños en Internet</h2>
                 <p>
                     Si quieres descargar algun diseño o quieres conseguir algun modelo de personajes o empresas, puedes descarcarlo de los siguientes sitios que frecuentamos.
                 </p>
             </div>
-            <div class="pt-3 card-group opacity-75">
-                <div class="card" data-aos="flip-up">
+
+            <div class="row row-cols-1 row-cols-xl-4 row-cols-md-2 g-4">
+                <div class="col" data-aos="flip-up">
+                  <div class="card border border-white text-white bg-transparent">
                     <a href="https://www.cgtrader.com/" target="_blank"><img src="../assist/images/logos/cgt.png" class="img-fluid rounded mx-auto d-block img_card" alt="logo de cgtrader"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">CGTrader</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-body">
+                      <h5 class="card-title">CGTrader</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
                   </div>
                 </div>
-                <div class="card" data-aos="flip-up">
+                <div class="col" data-aos="flip-up">
+                  <div class="card border border-white text-white bg-transparent">
                     <a href="https://cults3d.com/es" target="_blank"><img src="../assist/images/logos/cults.svg" class="img-fluid rounded mx-auto d-block img_card" alt="logo de cults"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Cults</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <div class="card-body">
+                      <h5 class="card-title">Cults</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
                   </div>
                 </div>
-                <div class="card" data-aos="flip-up">
-                    <a href="https://www.myminifactory.com/es/" target="_blank"><img src="../assist/images/logos/myminifact.png" class="img-fluid rounded mx-auto d-block img_card" alt="logo de myminifactory"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">MyMiniFactory</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                </div>
-                <div class="card" data-aos="flip-up">
+                <div class="col" data-aos="flip-up">
+                  <div class="card border border-white text-white bg-transparent">
                     <a href="https://www.thingiverse.com/" target="_blank"><img src="../assist/images/logos/thingiverse.jpg" class="img-fluid rounded mx-auto d-block img_card" alt="logo de thingiverse"></a>
                     <div class="card-body">
                       <h5 class="card-title">Thingiverse</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
+                  </div>
+                </div>
+                <div class="col" data-aos="flip-up">
+                  <div class="card border border-white text-white bg-transparent">
+                    <a href="https://www.myminifactory.com/es/" target="_blank"><img src="../assist/images/logos/myminifact.png" class="img-fluid rounded mx-auto d-block img_card" alt="logo de myminifactory"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">MyMiniFactory</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
                 </div>
             </div>
         </article>
-        <article class="container-fluid pt-3 row align-items-start justify-content-between">
+
+        <article class="pt-3 pb-3 row align-items-start justify-content-between pb-4">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 bordes">
                 <h2>Tutorial de descarga</h2>
                 <p>No sabes como descargar un modelo que viste? No hay problema, aqui te dejamos un tutorial bien explicado sobre como descargar en los principales sitios.</p>
@@ -135,20 +142,20 @@
                 </div>
             </div>   
         </article>
-        
     </main>
+
     <footer class="footer container-fluid pt-3 pb-3">
-        <div class="row">
+        <div class="row g-2">
             <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
                 <h2 class="display-6">San Juan, Argentina</h2>
             </div>
-            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 btn-group">
-                <button type="button" class="btn btn-outline-success animation"><a href="../index.html" class="footer_link">Inicio</a></button>
-                <button type="button" class="btn btn-outline-success animation"><a href="./p_nosotros.html" class="footer_link">Quienes somos?</a></button>
-                <button type="button" class="btn btn-outline-success animation"><a href="./p_productos.html" class="footer_link">Productos</a></button>
-                <button type="button" class="btn btn-outline-success animation"><a href="./p_contacto.html" class="footer_link">Contacto</a></button>
-            </div>
-        </div>
+            <section class="d-grid gap-3 d-md-flex justify-content-md-end col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <button type="button" class="btn btn-outline-success animation"><a href="./pages/p_nosotros.html" class="footer_link">Quienes somos?</a></button>
+                <button type="button" class="btn btn-outline-success animation"><a href="./pages/p_diseno.html" class="footer_link">Diseños</a></button>
+                <button type="button" class="btn btn-outline-success animation"><a href="./pages/p_productos.html" class="footer_link">Productos</a></button>
+                <button type="button" class="btn btn-outline-success animation"><a href="./pages/p_contacto.html" class="footer_link">Contacto</a></button>
+            </section>
+        </div>   
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

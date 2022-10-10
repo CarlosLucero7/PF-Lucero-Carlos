@@ -8,24 +8,21 @@
     src: url(../assist/fonts/SUNDAY.ttf);
  }
 
- body{
-    height: 150vh;
-    width: 100%;
+body{
+   height: 150vh;
+   width: 100%;
+   background-color: #1d1a2f;
  }
 
  .body_pag{
-   height: 120vh;
+   height: 150vh;
    width: 100%;
+   background-color: #1d1a2f;
  }
 
  #header{
-    background-image: url(../assist/images/background.jpg);
-    background-position: bottom;
- }
-
- .header_pag{
    background-image: url(../assist/images/background.jpg);
-    background-position: bottom;
+   background-position: bottom;
  }
 
  #titulo{
@@ -51,6 +48,10 @@
 
 #main{
    background-color: #1d1a2f;
+   color: #8BD450;
+}
+
+.main_contacto{
    color: #8BD450;
 }
 
@@ -85,20 +86,20 @@
 }
 
 .img_carousel{
-   height: 150px;
-}
-
-.img_card{
    height: 200px;
 }
 
+.img_card{
+   height: 175px;
+}
+
 .animation{
-   transition: 1s all linear ;
+   transition: 0.5s all linear ;
 }
 
 .animation:hover{
    transform: scale(1.25);
-   transition: 1s all linear ;
+   transition: 0.5s all linear ;
 }
 
    
