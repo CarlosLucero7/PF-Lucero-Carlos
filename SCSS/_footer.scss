@@ -1,0 +1,19 @@
+.footer {
+    background-image: linear-gradient(to right top, #1d1a2f, #342c56, #503d7f, #714ea9, #965fd4);
+    color: #8BD450;
+    font-family: sunday;
+    .animation {
+        transition: 0.5s all linear ;
+    }
+     .animation:hover{
+        transform: scale(1.25);
+        transition: 0.5s all linear ;
+    }
+    .footer_link {
+        text-decoration: none;
+        color: black;
+    }
+}
+ 
+ 
+ 

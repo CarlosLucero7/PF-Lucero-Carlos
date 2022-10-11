@@ -1,0 +1,31 @@
+#header{
+    
+    #titulo{
+        background-image: url(../assist/images/background.jpg);
+        background-position: center;
+        height: 300px;
+        font-family: carbon;
+        color: #965FD4;
+        }
+        .menu {
+            background-image: linear-gradient(to left top, #734f9a, #5a427f, #433563, #2f2749, #1d1a2f);
+            .menu_item {
+                font-family: sunday;
+                font-size: 1.35rem; 
+            }
+            .animation {
+                transition: 0.5s all linear ;
+            }
+             .animation:hover{
+                transform: scale(1.25);
+                transition: 0.5s all linear ;
+            }
+    }
+    .titulo_pag{
+        background-image: url(../assist/images/background.jpg);
+        background-position: center;
+        height: 300px;
+        font-family: sunday;
+        color: #8BD450;
+    }
+}
