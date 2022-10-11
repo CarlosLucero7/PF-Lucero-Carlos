@@ -13,7 +13,6 @@
         color: white;
         border: 2px solid #965FD4 !important;
         background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
-
     }
     .bg_carousel {
         background-color: whitesmoke;
@@ -27,10 +26,15 @@
     }
 }
 
-
-
 .main_contacto{
     color: #8BD450;
+    .carta_nos{
+        background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
+        color: white;
+    }
+    .carousel_nos{
+        height: 250px;
+    }
 }
 .boton_cont {
     color: #8BD450;
