@@ -31,9 +31,11 @@
     .carta_nos{
         background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
         color: white;
-    }
-    .carousel_nos{
-        height: 250px;
+        .boton_card{
+            text-decoration: none;
+            color: #8BD450;
+
+        }
     }
 }
 .boton_cont {
