@@ -22,12 +22,19 @@
     }
     
     .img_card{
-        height: 175px;
+        height: 150px;
     }
 }
 
 .main_contacto{
     color: #8BD450;
+    .img_contacto{
+        height: 275px;
+    }
+    .mapa_cont{
+        height: 250px;
+        width: 500px;
+    }
     .carta_nos{
         background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
         color: white;
@@ -35,6 +42,9 @@
             text-decoration: none;
             color: #8BD450;
 
+        }
+        .description{
+            height: 200px;
         }
     }
 }

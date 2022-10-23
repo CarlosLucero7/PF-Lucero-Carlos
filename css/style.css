@@ -19,7 +19,7 @@ body {
 #header #titulo {
   background-image: url(../assist/images/background.jpg);
   background-position: center;
-  height: 300px;
+  height: 150px;
   font-family: carbon;
   color: #965FD4; }
 
@@ -37,7 +37,7 @@ body {
 #header .titulo_pag {
   background-image: url(../assist/images/background.jpg);
   background-position: center;
-  height: 300px;
+  height: 150px;
   font-family: sunday;
   color: #8BD450; }
 
@@ -59,16 +59,23 @@ body {
     .main_dise .bg_carousel .img_carousel {
       height: 200px; }
   .main_dise .img_card {
-    height: 175px; }
+    height: 150px; }
 
 .main_contacto {
   color: #8BD450; }
+  .main_contacto .img_contacto {
+    height: 275px; }
+  .main_contacto .mapa_cont {
+    height: 250px;
+    width: 500px; }
   .main_contacto .carta_nos {
     background-image: linear-gradient(to right top, #1d1a2f, #532750, #952d58, #cd4046, #eb7012);
     color: white; }
     .main_contacto .carta_nos .boton_card {
       text-decoration: none;
       color: #8BD450; }
+    .main_contacto .carta_nos .description {
+      height: 200px; }
 
 .boton_cont {
   color: #8BD450;
